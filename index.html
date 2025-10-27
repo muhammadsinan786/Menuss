@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QR Menu - Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div class="topbar" id="topbar">
+    <div class="brand">
+      <img id="logo" alt="logo">
+      <div>
+        <h1 id="restaurant-name">Restaurant</h1>
+        <p id="status" class="status">Loading...</p>
+      </div>
+    </div>
+    <div class="actions">
+      <button id="shareBtn" title="Share menu">Share</button>
+      <button id="qrBtn" title="QR code">QR</button>
+      <button id="langBtn" title="Toggle language">EN/ML</button>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="hero" id="hero">
+      <h2 id="hero-text">Welcome</h2>
+    </section>
+
+    <section class="controls">
+      <input id="search" placeholder="Search menu items..." />
+      <div id="category-buttons" class="categories"></div>
+    </section>
+
+    <section id="menu" class="menu"></section>
+
+    <div id="cartBar" class="cart-bar hidden">
+      <div id="cartSummary">0 items • ₹0</div>
+      <div class="cart-actions">
+        <button id="viewCart">View</button>
+        <button id="whatsappOrder">Order on WhatsApp</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal for Cart / QR -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <button class="close" id="modalClose">×</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div id="info"></div>
+  </footer>
+
+  <!-- QRCode CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+{
+  "restaurantName": "Caf\u00e9 Aroma - Demo",
+  "themeColor": "#C58E48",
+  "hero": "Fresh food \u2022 Warm smiles",
+  "openTime": "09:00",
+  "closeTime": "22:00",
+  "lastUpdated": "2025-10-27",
+  "address": "MG Road, Kochi",
+  "logo": "images/logo.svg",
+  "contact": {
+    "phone": "+919876543210",
+    "whatsapp": "https://wa.me/919876543210",
+    "maps": "https://maps.google.com/?q=Cafe Aroma"
+  },
+  "categories": [
+    {
+      "name": "Starters",
+      "items": [
+        {
+          "name": "French Fries",
+          "price": "\u20b9120",
+          "desc": "Crispy golden fries with seasoning",
+          "image": "images/menu-items/fries.svg",
+          "badge": "Popular"
+        },
+        {
+          "name": "Garlic Bread",
+          "price": "\u20b9100",
+          "desc": "Baked with garlic butter",
+          "image": "images/menu-items/garlic.svg"
+        }
+      ]
+    },
+    {
+      "name": "Main Course",
+      "items": [
+        {
+          "name": "Paneer Butter Masala",
+          "price": "\u20b9220",
+          "desc": "Creamy paneer curry served with rice/roti",
+          "image": "images/menu-items/paneer.svg"
+        },
+        {
+          "name": "Chicken Biryani",
+          "price": "\u20b9250",
+          "desc": "Spiced biryani served with raita",
+          "image": "images/menu-items/biryani.svg",
+          "badge": "Chef"
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "name": "Cold Coffee",
+          "price": "\u20b990",
+          "desc": "Iced coffee with milk and ice-cream",
+          "image": "images/menu-items/coffee.svg"
+        }
+      ]
+    }
+  ]
+}
